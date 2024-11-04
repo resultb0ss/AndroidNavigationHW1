@@ -3,9 +3,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:background="#EB0909"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".RedFragment">
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:text="СТОЙ!"
+        android:gravity="center"
+        android:textColor="#FFFF00"
+        android:textStyle="bold"/>
 
 
 </LinearLayout>

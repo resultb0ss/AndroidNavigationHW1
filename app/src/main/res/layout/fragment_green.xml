@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:background="#316801"
     tools:context=".GreenFragment">
 
+    <TextView
 
-</FrameLayout>
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:text="ДВИЖЕНИЕ РАЗРЕШЕНО!"
+        android:gravity="center"
+        android:textColor="#FBFBFB"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
